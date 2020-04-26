@@ -1,38 +1,39 @@
-## YOLO Real Time Object Detection
+# YOLO Realtime Human Detection
+YOLO Real Time Human Detection Detection (YOLO) with OpenCV and Python.
 
-This project implements a real time object detection via video, webcam and image detection using YOLO algorithm. YOLO is a object detection algorithm which stand for You Only Look Once. I've implemented the algorithm from scratch in Python using pre-trained weights. YOLOv3 was published in research paper: <a href="https://pjreddie.com/media/files/papers/YOLOv3.pdf" rel="nofollow">YOLOv3: An Incremental Improvement: Joseph Redmon, Ali Farhadi</a> It's originally implemented in <a href="https://github.com/pjreddie/darknet">YOLOv3</a>.
+
+This project implements a real time human detection via video or webcam detection using yolov3-tiny algorithm. YOLO is a object detection algorithm which stand for You Only Look Once. I've implemented the algorithm from scratch in Python using pre-trained weights. YOLOv3 was published in research paper: YOLOv3: An Incremental Improvement: Joseph Redmon, Ali Farhadi It's originally implemented in YOLOv3.
 
 COCO dataset is used for training.
 
-Real time detection can be use via command prompt or GUI.
+## Real-Time Human Detection and Distance Estimation GUI
 
 <table>
   <tbody>
 	<tr align="center">
-		<th><strong>A USA Real-Time Road Detection</strong></th>
+		<th><strong>YOLO Real-time Young Women Detection</strong></th>
 	</tr>
 	<tr align="center">
-		<td><img src="https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection/blob/master/doc/detector1.gif"></td>		
+		<td><img src="results/yolorealtimeyoungdetection.jpg"></td>		
 	</tr>
 	<tr align="center">
-		<th><strong>A UK Real-Time Road Detection</strong></th>
+		<th><strong>YOLO Real-time Kid Detection</strong></th>
 	</tr>
 	<tr align="center">
-		<td><img src="https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection/blob/master/doc/detector2.gif"></td>
+		<td><img src="results/yolorealtimekiddetection.jpg"></td>		
 	</tr>
 	<tr align="center">
-		<th><strong>A Real-Time Webcam Detection</strong></th>
+		<th><strong>YOLO Real-time Fashion Women Detection</strong></th>
 	</tr>
 	<tr align="center">
-		<td style="width: 100%;"><img src="https://github.com/muhammadshiraz/YOLO-Real-Time-Object-Detection/blob/master/doc/webcam_detector.jpg"></td>
+		<td><img src="results/yolorealtimewomandetection.jpg"></td>		
 	</tr>
 </tbody>
 </table>
 
-Yolo is a deep learning algorythm which came out on may 2016 and it became quickly so popular because it’s so fast compared with the previous deep learning algorythm.
-With yolo we can detect real time objects at a relatively high speed. With a GPU we would be able to process over 45 frames/second while with a CPU around a frame per second.
+## YOLOv3
 
-OpenCV dnn module supports running inference on pre-trained deep learning models from popular frameworks like Caffe, Torch and TensorFlow.
+You only look once (YOLO) is an object detection system targeted for real-time processing. We will introduce YOLO, YOLOv2 and YOLO9000 in this article. For those only interested in YOLOv3, please forward to the bottom of the article. Here is the accuracy and speed comparison provided by the YOLO web site.
 
 ## Requirement
 <ul>
